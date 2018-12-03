@@ -1,5 +1,6 @@
-# iceRadio
-C and Verilog sources for STM32F303 + iCE5LP4K Software Defined Radio project.
+# iceRadio2
 
-See http://ebrombaugh.studionebula.com/radio/iceRadio/index.html for more
-information.
+Clone the project from
+See http://ebrombaugh.studionebula.com/radio/iceRadio/index.html for more information.
+
+Will adapt it to Xilinx FPGA
