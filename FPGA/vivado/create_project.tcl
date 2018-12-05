@@ -1,4 +1,4 @@
-create_project project_1 project_1 -part xc7a100tfgg484-2 -force
+create_project project_1 project_1 -part xc7a50tfgg484-2 -force
 set_property target_language VHDL [current_project]
 set_property  ip_repo_paths  ip_lib [current_project]
 update_ip_catalog
