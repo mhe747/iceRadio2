@@ -85,10 +85,10 @@ set_property PACKAGE_PIN G16 [get_ports {RMII_txd[1]} ]
 set_property IOSTANDARD LVCMOS25 [get_ports RMII_*   ]
 
 # FPGA_SPI
-set_property PACKAGE_PIN Y4 [get_ports {FPGA_SPI_MOSI} ]
-set_property PACKAGE_PIN AA4 [get_ports {FPGA_SPI_MISO} ]
-set_property PACKAGE_PIN W4 [get_ports {FPGA_SPI_SCLK} ]
-set_property PACKAGE_PIN AB5 [get_ports {FPGA_SPI_SS} ]
+set_property PACKAGE_PIN Y4 [get_ports {FPGA_SPI_io0_io} ]
+set_property PACKAGE_PIN AA4 [get_ports {FPGA_SPI_io1_io} ]
+set_property PACKAGE_PIN W4 [get_ports {FPGA_SPI_sck_io} ]
+set_property PACKAGE_PIN AB5 [get_ports {FPGA_SPI_ss_io[0]} ]
 set_property IOSTANDARD LVCMOS25 [get_ports FPGA_SPI_*   ]
 
 # FPGA_SPI2
